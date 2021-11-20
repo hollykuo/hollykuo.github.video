@@ -1,0 +1,83 @@
+.jumbotron{
+    background-image: url("https://media.nownews.com/nn_media/thumbnail/2020/10/1601974471744-9c7ece22761441d08671fad4db93b6d7-800x528.jpg");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    height:70vh;
+/* vh: viewport height;*/
+}
+
+h1{
+    font-size: 26pt;
+    color:rosybrown    
+}
+
+p{
+    font-size: 14pt;
+    color:black;
+}
+
+figcaption{
+    font-size: 15pt;
+    color: grey;
+}
+
+#nav li{
+    display:block;
+    background-color:lightsteelblue;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0.2);
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+#nav li:hover{
+    background-color: lightyellow;
+}
+
+#nav ul{
+    padding-left: 0px;
+}
+
+#nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav li a:hover{
+    color:burlywood;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+div.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 258px;
+}
+
+div.gallery:hover{
+  border: 1px solid #777;
+}
+
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+div.desc{
+  padding: 15px;
+  text-align: center;
+    
+}
+
+h2{
+    color: gray;
+    text-align:center;
+    
+}
